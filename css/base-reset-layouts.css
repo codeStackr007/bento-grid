@@ -51,6 +51,7 @@
     font-size: 1.125rem;
     background: var(--color-bg-light);
     overflow-x: hidden;
+    line-height: 1;
   }
 
   h1,
@@ -62,10 +63,6 @@
     line-height: 0.9;
     letter-spacing: -0.05em;
     font-weight: 500;
-  }
-
-  p {
-    line-height: 1.1;
   }
 
   a {

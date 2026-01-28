@@ -345,7 +345,7 @@
       align-content: center;
     }
     .card--create .card__title {
-      font-size: 2.3rem;
+      font-size: 2.5rem;
     }
     .card--create .card__icon {
       width: 96%;
@@ -363,19 +363,16 @@
 
     .card--platforms .card__image {
       width: 153%;
-      max-width: none;
+      max-width: 23rem;
     }
 
-    .card--consistent {
-      gap: 1rem;
-    }
     .card--consistent .card__title,
     .card--platforms .card__title {
       font-size: 2.1rem;
     }
     .card--consistent .card__image {
       width: 100%;
-      margin-bottom: -4.2rem;
+      margin-bottom: -30%;
     }
 
     .card--schedule {
