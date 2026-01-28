@@ -362,8 +362,8 @@
     }
 
     .card--platforms .card__image {
-      width: 150%;
-      max-width: 23rem;
+      width: 153%;
+      max-width: none;
     }
 
     .card--consistent {
@@ -371,7 +371,7 @@
     }
     .card--consistent .card__title,
     .card--platforms .card__title {
-      font-size: 2.3rem;
+      font-size: 2.1rem;
     }
     .card--consistent .card__image {
       width: 100%;
