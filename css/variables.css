@@ -1,0 +1,15 @@
+/* Variables */
+:root {
+  --color-primary: hsl(256, 67%, 59%);
+  --color-accent: hsl(39, 100%, 71%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-text-dark: hsl(0, 0%, 7%);
+  --color-bg-light: hsl(0, 0%, 96%);
+  --color-create-bg: hsl(31, 66%, 93%);
+  --color-schedule-bg: hsl(254, 88%, 90%);
+
+  --root-font-size: 100%;
+  --root-font-size-tablet: 92%;
+  --root-font-size-desktop: 80%;
+  --bento-max-width: 75rem;
+}

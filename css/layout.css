@@ -1,0 +1,50 @@
+/* Layout */
+@layer layout {
+  .container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem 1.25rem;
+  }
+
+  .bento {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+      "hero"
+      "platforms"
+      "consistent"
+      "schedule"
+      "followers"
+      "growth"
+      "create"
+      "ai";
+  }
+
+  /* Tablet 2-col */
+  @media (min-width: 600px) {
+    .bento {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas:
+        "hero hero"
+        "platforms consistent"
+        "schedule growth"
+        "schedule create"
+        "followers ai";
+    }
+  }
+
+  /* Desktop 4-col */
+  @media (min-width: 1024px) {
+    .bento {
+      grid-template-columns: repeat(4, 1fr);
+      max-width: var(--bento-max-width);
+      margin: 0 auto;
+      gap: 2rem;
+      grid-template-areas:
+        "create hero hero schedule"
+        "create platforms consistent schedule"
+        "ai platforms consistent schedule"
+        "ai growth followers followers";
+    }
+  }
+}
